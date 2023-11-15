@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    transition: 0.5s ease;
+    padding: 20px 200px
+    
+}
+header .brand{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 750;
+    text-transform: uppercase;
+    text-decoration: none;
+}
