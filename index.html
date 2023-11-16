@@ -11,12 +11,15 @@
 <body>
     <header>
         <a href="#" class="brand"> WITH WILDLIFE</a>
+        <div class="menu-btn">  
+        </div>
         <div class="navigation">
             <div class="navigation-items">
                 <a href="#"> Home</a>
                 <a href="#"> About</a>
                 <a href="#"> Explore</a>
                 <a href="#"> Gallery</a>
+                <a href="#"> Products</a>
                 <a href="#"> Donation</a>
                 <a href="#"> Contact</a>
             </div>
@@ -31,9 +34,17 @@
         <div class="media-icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
            
         </div>
     </section>
+    <script type="text/javascript">
+    const menuBtn = document.querySelector(".menu-btn");
+    menuBtn.addEventListener("click", () =>{
+        menuBtn.classList.togglr("active");
+    });
+
+
+    </script>
 </body>
 </html>
