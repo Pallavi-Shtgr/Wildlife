@@ -27,6 +27,16 @@ header .brand{
 header .navigation{
     position: relative;
 }
+header .brand{
+    color: #eceaea;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header .navigation{
+    position: relative;
+}
 header .navigation .navigation-items a{
     position: relative;
     color:rgb(243, 241, 239);
@@ -59,8 +69,23 @@ section{
     display: flex;
     justify-content: center;
     flex-direction:column ;
-    background-color:rgb(118, 80, 155)
+    background-color:rgb(121, 114, 128)
 }
+ /* .read{
+    background: #fff;
+   margin-bottom: 0%;
+    padding: 5px 40px;
+    color: rgb(10, 69, 69);
+    text-decoration: none;
+    border-radius: 2px;
+    height: 10px;
+    width: 10px;
+    margin:auto;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 2px;
+
+} */
 .home:before{
     z-index:777;
     content: '';
@@ -76,7 +101,7 @@ section{
     color: #ffffff;
     width: 70%;
     margin-top: 50px;
-    display: none;
+    /* display: none; */
 }
 .home .content.avtive{
     display: block;
@@ -93,16 +118,21 @@ section{
 .home .content h1 span{
     font-size: 1.2em;
     font-weight: 600;
+    position: 10%;
 }
 .home .content p{
-    margin-bottom: 40px;
+    margin-bottom:65px;
 }
+
 .home .content a{
     background: #fff;
-    padding: 10px 30px;
+    padding: 15px 35px;
     color: rgb(10, 69, 69);
+    font-size: 1.1em;
+    font-weight: 500;
     text-decoration: none;
     border-radius: 2px;
+    /* position: 80%; */
 }
 .home .media-icons{
     z-index: 888;
@@ -133,7 +163,7 @@ section{
     width:100%;
     object-fit:cover;
 } 
- .slider-navigation{
+.slider-navigation{
     z-index:888;
     position: relative;
     display: flex;
@@ -152,7 +182,7 @@ section{
     transition: 0.3s ease;
 }
 .slider-navigation .nav-btn.active{
-    background: #9ec3de;
+    background: #032f4f;
 }
 .slider-navigation .nav-btn:not(:last-child){
     margin-right: 20px;
@@ -163,8 +193,7 @@ section{
 .video-slide{
     position: absolute;
     width: 100%;
-    clip-path: circle(0.3% at 0 50%)
-    ;
+    clip-path: circle(0.3% at 0 50%);
 }
 .video-slide.active{
     clip-path: circle(150% at 0 50%);
@@ -182,20 +211,20 @@ section{
         right: 15px;
     }
     header .navigation  {
-       display: none;
-    }
-    header .navigation .active {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(247, 241, 241, 0.5);
-    }
-    header .navigation .navigation-items a{
+        display: none;
+     }
+     header .navigation .active {
+         position: fixed;
+         width: 100%;
+         height: 100vh;
+         top: 0;
+         left: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background: rgba(247, 241, 241, 0.5);
+     }
+     header .navigation .navigation-items a{
         color: #222;
         font-size: 1.2em;
         margin: 20px;
@@ -216,7 +245,7 @@ section{
         border: 5px;
         box-shadow: 0 5px 25px rgb(1 1 1/20%);
     }
-    /* .menu-btn{
+       /* .menu-btn{
         background: url(menu.png)no-repeat ;
         background-size: 100%;
         background-position: center;
@@ -230,7 +259,6 @@ section{
         background: url(close.png)no-repeat;
         background-size: 25px;
         background-position: center;
-        transition: 0.3s ease;
-    } */
+        transition: 0.3s ease; */
+    }
 
-}

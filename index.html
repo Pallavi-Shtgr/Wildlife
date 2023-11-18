@@ -26,17 +26,20 @@
         </div>
     </header>
     <section class="home">
-        <video class ="video-slide active"src="3.mp4" autoplay muted looop></video>
-        <video class ="video-slide"src="1.mp4" autoplay muted looop></video>
-        <video class ="video-slide"src="4.mp4" autoplay muted looop></video>
-        <video class ="video-slide"src="2.mp4" autoplay muted looop></video>
+        <video class ="video-slide active"src="1.mp4" autoplay muted loop></video>
+        <video class ="video-slide "src="2.mp4" autoplay muted loop></video>
+        <video class ="video-slide "src="3.mp4" autoplay muted loop></video>
+        <video class ="video-slide "src="4.mp4" autoplay muted loop></video>
+
          <div class="content active">
             <h1>Wildlife <br> <span> Santury</span></h1>
             <p>Lorem ipsum dolor sit am
                 et consectetur adipisicing elit. Necessitatibus aliquid error facilis inventore magni. Beatae, quaerat libero rerum modi iusto unde odit doloribus facilis inventore quis, soluta magni voluptatum! Quia!</p>
-            <a href="#">Read More</a>
+
+                <a href="#">Read More</a>
+            </div>
         </div>
-        <div class="content ">
+        <!-- <div class="content ">
             <h1>Into the <br> <span> Forest</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid error facilis inventore magni. Beatae, quaerat libero rerum modi iusto unde odit doloribus facilis inventore quis, soluta magni voluptatum! Quia!</p>
             <a href="#">Read More</a>
@@ -50,7 +53,7 @@
             <h1>Donate <br> <span> Save</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid error facilis inventore magni. Beatae, quaerat libero rerum modi iusto unde odit doloribus facilis inventore quis, soluta magni voluptatum! Quia!</p>
             <a href="#">Read More</a>
-        </div>
+        </div> -->
         <div class="media-icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -64,16 +67,15 @@
         </div>
     </section>
     <script type="text/javascript">
-//javascript for responsive navigation menu
-    const menuBtn = document.querySelector(".menu-btn");
-    const navigation = document.querySelector(".navigation");
-
-    menuBtn.addEventListener("click", () =>{
-        menuBtn.classList.toggle("active");
-        navigation.classList.toggle("active");
-    });
-
-//javascript for vdo slider navigation
+        //javascript for responsive navigation menu
+            const menuBtn = document.querySelector(".menu-btn");
+            const navigation = document.querySelector(".navigation");
+        
+            menuBtn.addEventListener("click", () =>{
+                menuBtn.classList.toggle("active");
+                navigation.classList.toggle("active");
+            });
+        //javascript for vdo slider navigation
     const btns = document.querySelectorAll(".nav-btn");
     const slides = document.querySelectorAll(".video-slide");
     const content= document.querySelectorAll("content");
@@ -87,12 +89,13 @@
             slide.classList.remove("active")
         });
 
-        content.forEach((content) => {
+        contents.forEach((content) => {
             content.classList.remove("active")
         });
 
         btns[manual].classList.add("active");
         slides[manual].classList.add("active");
+        contents[manual].classList.add("active");
         
     }
     btns.forEach((btn,i)=> {
@@ -101,5 +104,7 @@
         });
     });
     </script>
+        
+ 
 </body>
 </html>
