@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     z-index: 999;
     position: absolute;
@@ -62,6 +65,15 @@ header .navigation .navigation-items a:hover::before{
 section{
     padding: 100px 150px;
 }
+h1{
+   
+    font-weight: 400;
+}
+h3{
+    font-family: sans-serif;
+    font-size: larger;
+    color: rgb(211, 101, 101);
+}
 .home{
     position: relative;
     width: 100%;
@@ -74,21 +86,6 @@ section{
     background-repeat: no-repeat; */
     background-color:rgb(121, 114, 128);
 }
- /* .read{
-    background: #fff;
-   margin-bottom: 0%;
-    padding: 5px 40px;
-    color: rgb(10, 69, 69);
-    text-decoration: none;
-    border-radius: 2px;
-    height: 10px;
-    width: 10px;
-    margin:auto;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 2px;
-
-} */
 .home:before{
     z-index:777;
     content: '';
@@ -264,45 +261,27 @@ section{
         background-position: center;
         transition: 0.3s ease;
     }
-   .aboutsection{
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    background-color: rgb(131, 78, 10);
-        /* background-image: url(./images/6.jpg);
-        background-size: contain;
-        width: 4000;
-       height: 1000px;
-        background-position: center;
-        background-repeat: no-repeat; */
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
-        text-emphasis-style: 10%;
+   .about-section{
+   height: 100vh;
+   width: fit-content;
+    display:flex;
+
         
    }
-   .exploresection{
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    background-color: rgb(131, 78, 10);
+
+   .explore-section #explore{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(213, 7, 41);
+    
    }
-   .gallerysection{
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    background-color: rgb(131, 78, 10);
+   .gallery-section{
+  
+    background-color:rgb(66, 3, 14);
+    
    }
-   .productsection{
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    background-color: rgb(131, 78, 10);
-   }
-   .abousection #about .h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #5f0808;
+   .product-section{
+   background-color: #032f4f;
    }
 
 }
