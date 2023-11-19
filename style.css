@@ -248,7 +248,7 @@ section{
         border: 5px;
         box-shadow: 0 5px 25px rgb(1 1 1/20%);
     }
-       /* .menu-btn{
+       .menu-btn{
         background: url(menu.png)no-repeat ;
         background-size: 100%;
         background-position: center;
@@ -262,19 +262,19 @@ section{
         background: url(close.png)no-repeat;
         background-size: 25px;
         background-position: center;
-        transition: 0.3s ease; */
+        transition: 0.3s ease;
     }
    .aboutsection{
-    /* height: 100vh;
+    height: 100vh;
     align-items: center;
     display: flex;
-    background-color: rgb(131, 78, 10); */
-        background-image: url(./images/6.jpg);
+    background-color: rgb(131, 78, 10);
+        /* background-image: url(./images/6.jpg);
         background-size: contain;
         width: 4000;
        height: 1000px;
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
         text-align: center;
         font-size: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -305,4 +305,4 @@ section{
     color: #5f0808;
    }
 
-   
+}
