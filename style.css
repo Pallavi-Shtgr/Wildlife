@@ -72,7 +72,8 @@ h1{
 h3{
     font-family: sans-serif;
     font-size: larger;
-    color: rgb(211, 101, 101);
+    color: rgb(190, 60, 60);
+    text-decoration: underline;
 }
 .home{
     position: relative;
@@ -97,14 +98,15 @@ h3{
     left:0;
 }
 .home .content{
-    z-index: 888;
+    z-index:888;
     color: #ffffff;
-    width: 70%;
-    margin-top: 50px;
-    /* display: none; */
+    width: 50%;
+    margin-top: 70px;
+    display:auto;
 }
 .home .content.avtive{
     display: block;
+   
 }
 .home .content h1{
     font-size: 4em;
@@ -121,11 +123,12 @@ h3{
     position: 10%;
 }
 .home .content p{
-    margin-bottom:65px;
+    margin-bottom:100px;
 }
 
 .home .content a{
     background: #fff;
+    margin-bottom: 60%;
     padding: 15px 35px;
     color: rgb(10, 69, 69);
     font-size: 1.1em;
@@ -261,7 +264,7 @@ h3{
         background-position: center;
         transition: 0.3s ease;
     }
-   .about-section{
+   .about-section #about{
    height: 100vh;
    width: fit-content;
     display:flex;
