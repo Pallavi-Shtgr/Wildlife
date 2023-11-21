@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
+header{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(78, 47, 77);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: wheat;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5 rem 1.5rem;
+}
+
+.left{
+    flex-basis: 50%;
+}
+
+.right{
+    flex-shrink: 50%;
+}
