@@ -203,6 +203,10 @@ h3{
     transition: 2s ease;
     transition-property: clip-path;
 }
+
+.container #abo{
+    background-color: #032f4f;
+}
 @media (max-width){
     header{
         padding: 12px 20px
@@ -288,3 +292,5 @@ h3{
    }
 
 }
+
+
