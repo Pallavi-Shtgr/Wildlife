@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> </title>
-    <!-- <style>
-        #stateDropdown {
-          height: 30%; /* Set the initial height to show only 4 options */
-          overflow-y: hidden;
-        }
-      </style> -->
       <link rel="stylesheet" href="donate.css">
     
 </head>
@@ -19,21 +13,21 @@
         <div class="left">
         <h3> DONATER'S ADDRESS </h3>
         <form> 
-            First name
-            <input type="text"  name=""   placeholder="Enter name" >
+            First name<br>
+            <input type="text"  name=""   placeholder="Enter name" ><br> <br>
             
-            Email
-            <input type="text"  name=""   placeholder="Enter email" >
-            Phone number
-            <input type="text"  name=""   placeholder="Enter number" >
-            Address
-            <input type="text"  name=""   placeholder="Enter address" >
-            City
-            <input type="text"  name=""   placeholder="Enter city" >
+            Email <br> 
+            <input type="text"  name=""   placeholder="Enter email" ><br> <br>
+            Phone number <br> 
+            <input type="text"  name=""   placeholder="Enter number" ><br> <br>
+            Address <br>
+            <input type="text"  name=""   placeholder=" Enter address " ><br> <br>
+            City <br>
+            <input type="text"  name=""   placeholder="Enter city" ><br> <br>
 
-            <div>
+            <div id="zip">
                 <label>
-                    State
+                    State <br>
                     <select>
                         <option>Choose State..</option>
                         <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -67,7 +61,8 @@
                     </select>
                 </label>
                 <label>
-                    <input type="number"  name=""   placeholder="zip code" >
+                    Zipcode<br>
+                    <input type="number"  name=""   placeholder="zip code" ><br> <br>
 
                 </label>
                 
@@ -75,6 +70,38 @@
         </form>
         </div>
             <div class="right">
+                <h3> PAYMENT </h3>
+                <form> 
+                   Accepted card<br>
+                  <img src="Cards/Card1.jpg" width="100">
+                  <img src="Cards/Card3.jpg" width="50">
+                  <img src="Cards/Card2.png" width="60"><br><br>
+                   
+                  Credit card number <br>
+                    <input type="text"  name=""   placeholder=" card number" ><br> <br>
+                    Exp month<br>
+                    <input type="text"  name=""   placeholder="Enter month" ><br> <br>
+        
+                    <div id="zip">
+                        <label>
+                            Exp year <br>
+                            <select>
+                                <option>Choose year</option>
+                                <option>2024</option>
+                                <option>2025<option>
+                                <option>2026</option>
+                                <option>2027</option>
+                            </select>
+                        </label>
+                        <label>
+                           CVV<br>
+                            <input type="number"  name=""   placeholder="cvv" ><br> <br>
+        
+                        </label>
+                        
+                    </div>
+                </form>
+                <input type="submit" name="" value="PROCEED TO CHECKOUT">
 
            
         </div>
