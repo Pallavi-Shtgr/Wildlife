@@ -1,3 +1,9 @@
 Embarking on the adventure of wildlife photography is both exciting and a bit tricky. 
 Many beginners face challenges in capturing the beauty of the wild. This project aims to help aspiring photographers, especially those who are just starting and may not know much about wildlife photography. 
 We're here to simplify the learning process and make it enjoyable for you. Additionally, by joining us, you're also supporting the Wild Animals Donation Fund.
+
+->Problem Statement:
+Wildlife photographers confront a myriad of challenges that can hinder the quality of their work. The unpredictable nature of animals poses a significant challenge, as they don't adhere to schedules, making it difficult to plan and capture specific shots. Additionally, the dynamic and sometimes hazardous environments in the wild add an extra layer of complexity to the photographer's task.
+A critical issue is the lack of knowledge among individuals eager to join the world of wildlife photography. Many enthusiasts lack the foundational skills necessary for success, such as understanding animal behavior, mastering camera equipment, and adapting to diverse ecosystems. The absence of accessible and reliable learning resources exacerbates this problem, leaving aspiring photographers overwhelmed and unsure about where to start.
+-> Outcomes:
+This project endeavors to make wildlife photography more accessible for beginners through a web-based learning platform. By combining educational resources, community support, and practical guidance, the goal is to empower individuals with a passion for wildlife to embark on their photography journey with confidence and enthusiasm.A Generous contribution will fund initiatives to help preserve the habitats, enabling enthusiasts to embark on their photography journey with confidence and enthusiasm.
