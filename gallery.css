@@ -11,22 +11,14 @@
     text-transform: capitalize;
 }
 
-/* .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    min-height: 100vh;
-    padding: 10px 7%;
-    background: linear-gradient(90deg, #900c3f 50%, #eee 50.1%);
-} */
 
 html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
 body{
-    background: #fcf9f9;
+   
+    background: #d0caca;
 }
  .container{
     max-width: 1200px;
@@ -36,9 +28,11 @@ body{
 
  .container .title{
     font-size: 3.5rem;
-    color:#444;
+    color:#0f0101;
     margin-bottom: 3rem;
     text-transform: uppercase;
+    background-color: rgb(244, 246, 248);
+    background-origin: solid;
     text-align: center;
  }
 
@@ -46,16 +40,17 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
     gap:2rem;
+    transition: 0s;
  }
 
  .container .photosto-container .photo{
     text-align: center;
     padding: 3rem 2rem;
-    background: #fff;
-    box-shadow: 0.0rem 0.0rem rgba(0,0,0,1);
-    outline: .1rem solid #ccc;
+    background: #958c8c81;
+    box-shadow: 0.0rem 0.0rem rgba(0,0,0,.1);
+    outline: .2rem solid #3a0303;
     outline-offset: -1.5rem;
-    cursor: pointer;
+    cursor:pointer;
 
  }
 
@@ -75,17 +70,17 @@ body{
  .container .photosto-container .photo h3{
       padding: .5rem 0;
       font-size: 2rem;
-      color: #444;
+      color:rgb(86, 64, 157)
  }
 
  .container .photosto-container .photo:hover h3{
-   color: brown;
+   color: rgb(228, 18, 35);
  }
  .container .photosto-container .photo .price{
    font-size: 2rem;
    color: #444;
  }
-
+/* 
  .photo-preview{
    position: fixed;
    top:0;
@@ -113,4 +108,96 @@ body{
       display: inline-block;
  }
 
+ .photo-preview .preview img{
+  height: 30rem;
+ }
 
+ .photo-preview .preview .fa-times{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    color: #444;
+    font-size: 4rem;
+ }
+
+ .photo-preview .preview .fa-times:hover{
+  transform: rotate(90deg);
+ }
+
+ .product-preview .preview h3{
+    color: #444;
+    padding: .5rem 0;
+    font-size: 2.5rem;
+ }
+
+ .photo-preview .preview .stars{
+  padding: 1rem 0;
+  font-size: 1.7rem;
+ }
+
+ .photo-preview .preview .stars i{
+  color: #27ae60;
+ }
+
+ .photo-preview .preview .stars span{
+  color: #999;
+ }
+
+ .photo-preview .preview p{
+   line-height: 1.5;
+   padding: 1rem 0;
+   font-size: 1.6rem;
+   color: #777;
+ }
+ .photo-preview .preview .price{
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  color: #27ae60;
+ }
+
+ .photo-preview .preview .buttons{
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap:wrap;
+  margin-top: 1rem;
+ }
+
+ .photo-preview .preview .buttons a{
+  flex: 1 1 16rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #444;
+  border: .1rem solid #444;
+
+ }
+
+ .photo-preview .preview .buttons a.cart{
+  background: #444;
+  color: #fff;
+ }
+
+ .photo-preview .preview .buttons a.cart:hover{
+  background: #111;
+ }
+
+ .photo-preview .preview .buttons a.buy:hover{
+  background: #444;
+  color: #fff;
+ }
+
+ @media (max-width:991px){
+  html{
+    font-size: 55%;
+  }
+ }
+@media (max-width:768px){
+  .product-preview .preview img{
+    height: 25rem;
+  }
+}
+@media (max-width:450px){
+  html{
+    font-size: 50%;
+  }
+} */
