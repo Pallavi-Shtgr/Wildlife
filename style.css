@@ -268,29 +268,56 @@ h3{
         background-position: center;
         transition: 0.3s ease;
     }
-   .about-section #about{
-   height: 100vh;
-   width: fit-content;
-    display:flex;
-
-        
-   }
-
-   .explore-section #explore{
-    height: 100%;
-    width: 100%;
-    background-color:rgb(213, 7, 41);
-    
-   }
-   .gallery-section{
-  
-    background-color:rgb(66, 3, 14);
-    
-   }
-   .product-section{
-   background-color: #032f4f;
-   }
-
 }
+
+    /* About section style */
+   .about-section #about{
+   height: 900px;
+   width: fit-content;
+   justify-content: space-around;
+    display:inline-block;
+    background-color: #fcecec;
+    
+   }
+
+   /* Explore Section */
+   .explore-section #explore{
+    height: 900px;
+    width: fit-content;
+    justify-content: space-around;
+     display:inline-block;
+     background-color: #fcecec;
+     
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+    
+    .small-column {
+        width: 30%;
+        background-color: #f2f2f2;
+    }
+    
+    .big-column {
+        width: 70%;
+        background-color: #e6e6e6;
+    }
+ 
+
+   /* #section1{
+    height: 700px;
+    background-color: #5f0808;
+    display: inline-block;
+    width: 100%;
+   } */
+
+
 
 
