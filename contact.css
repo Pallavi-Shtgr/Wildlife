@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #655656;
+    background-color: #c8bcbc;
     background-size: cover;
 }
 .contact .content{
@@ -138,6 +138,7 @@
     padding: 10px;
     font-size: 18px;
 }
+
 @media (max-width:991px){
     .contact{
         padding: 50px;
