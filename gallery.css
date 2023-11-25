@@ -74,7 +74,7 @@ body{
  }
 
  .container .photosto-container .photo:hover h3{
-   color: rgb(228, 18, 35);
+   color: rgb(133, 4, 15);
  }
  .container .photosto-container .photo .price{
    font-size: 2rem;
