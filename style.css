@@ -272,14 +272,19 @@ h3{
 
     /* About section style */
    .about-section #about{
-   height: 900px;
+   height: 100%;
    width: fit-content;
    justify-content: space-around;
     display:inline-block;
     background-color: #fcecec;
     
    }
-
+   .about-section #about h3{
+    margin-left:20px;
+   }
+   .about-section #about p{
+    margin-left: 40px;
+   }
    /* Explore Section */
    .explore-section #explore{
     height: 900px;
@@ -289,25 +294,40 @@ h3{
      background-color: #fcecec;
      
     }
+    .explore-section #explore h1{
+        padding: 10px;
+        margin: 10px;
+        color: #021c2e;
+        text-align: center;
+       text-decoration: dotted;
+       background-color: #bf9797;
+    }
+  
     table {
-        width: 100%;
+        width: 80%;
         border-collapse: collapse;
-        margin-top: 20px;
+        margin-top: 5px;
+        margin:80px;
     }
     
     td {
         padding: 10px;
-        border: 1px solid #ddd;
+        border: 1px solid #dddddd;
+        align-items: center;
+    }
+    tr{
+        padding: 60px;
+        border: 1px solid #dddddd;
     }
     
     .small-column {
         width: 30%;
-        background-color: #f2f2f2;
+        background-color: #887b9e;
     }
     
     .big-column {
-        width: 70%;
-        background-color: #e6e6e6;
+        width: 10%;
+        background-color: #b0adc6;
     }
  
 
