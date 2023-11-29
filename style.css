@@ -102,9 +102,9 @@ h3{
     color: #ffffff;
     width: 50%;
     margin-top: 70px;
-    display:auto;
+    display:none;
 }
-.home .content.avtive{
+.home .content.active{
     display: block;
    
 }
@@ -195,7 +195,8 @@ h3{
 }
 .video-slide{
     position: absolute;
-    width: 100%;
+    width: 100vw;
+    object-fit: contain;
     clip-path: circle(0.3% at 0 50%);
 }
 .video-slide.active{
@@ -207,7 +208,7 @@ h3{
 .container #abo{
     background-color: #032f4f;
 }
-@media (max-width){
+@media (max-width:500px){
     header{
         padding: 12px 20px
     }
@@ -220,7 +221,7 @@ h3{
     header .navigation  {
         display: none;
      }
-     header .navigation .active {
+     header .navigation.active {
          position: fixed;
          width: 100%;
          height: 100vh;
@@ -241,7 +242,7 @@ h3{
         background: #eceaea;
         height: 2px;
     }
-    header .navigation .active.navigation-items{
+    header .navigation.active .navigation-items{
         background-color: #751515;
         width: 600px;
         max-width: 600px;
