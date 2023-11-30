@@ -243,9 +243,9 @@ h3{
         height: 2px;
     }
     header .navigation.active .navigation-items{
-        background-color: #751515;
-        width: 600px;
-        max-width: 600px;
+        background-color: #f5e9e9;
+        width: 800px;
+        max-width: 800px;
         margin: 20px;
         padding: 40px;
         display: flex;
