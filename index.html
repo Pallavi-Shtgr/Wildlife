@@ -30,9 +30,7 @@
     </header>
     <section class="home">
         <video class ="video-slide active"src="1.mp4" autoplay muted loop></video>
-        <video class ="video-slide" src="2.mp4" autoplay muted loop></video>
-        <video class ="video-slide" src="3.mp4" autoplay muted loop></video>
-        <video class ="video-slide" src="4.mp4" autoplay muted loop></video>
+       
 
          <div class="content active">
             <h1>Lens on <br> <span> Wild</span></h1>
@@ -41,22 +39,7 @@
                 <a href="#">Read More</a>
             </div>
        
-             <div class="content ">
-                <h1>Into the <br> <span> Forest</span></h1>
-                <p>where the heartbeat of nature echoes through every rustle of leaves. Discover the enchanting tales hidden within the lush green embrace of the wild.</p>
-    <a href="#">Read More</a>
-            </div>
-            <div class="content ">
-                <h1>Feel <br> <span> Nature</span></h1>
-                <p>our wildlife gallery transports you into the heart of the wilderness, capturing the raw essence of Earth's diverse ecosystems. </p>
-                <a href="#">Read More</a>
-            </div>
-                <div class="content ">
-                <h1>Donate <br> <span> Save</span></h1>
-                    <p>Your contribution powers conservation efforts, safeguarding habitats and wildlife. 
-                        Join us in the mission to preserve biodiversity and make a lasting impact on the planet's delicate ecosystems  </p>
-                        <a href="#">Read More</a>
-        </div>
+            
     </div>
        
        
@@ -202,34 +185,8 @@
                 navigation.classList.toggle("active");
             });
         //javascript for vdo slider navigation
-    const btns = document.querySelectorAll(".nav-btn");
-    const slides = document.querySelectorAll(".video-slide");
-    const contents= document.querySelectorAll(".content");
-
-    var sliderNav = function(manual){
-        btns.forEach((btn) => {
-            btn.classList.remove("active")
-        });
-
-        slides.forEach((slide) => {
-            slide.classList.remove("active")
-        });
-
-        contents.forEach((content) => {
-            content.classList.remove("active")
-        });
-
-        btns[manual].classList.add("active");
-        slides[manual].classList.add("active");
-        contents[manual].classList.add("active");
-        
-    }
-    btns.forEach((btn,i)=> {
-        btn.addEventListener("click", () => {
-            sliderNav(i);    
-        });
-    });
-    </script>
+ 
+     </script>
         
  
 </body>
