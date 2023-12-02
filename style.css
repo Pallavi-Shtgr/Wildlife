@@ -277,7 +277,7 @@ h3{
    width: fit-content;
    justify-content: space-around;
     display:inline-block;
-    background-color: #eecbcb;
+    background-color: #e4b6b6;
     
    }
    .about-section #about h3{
@@ -298,7 +298,7 @@ h3{
     .explore-section #explore h1{
         padding: 10px;
         margin: 10px;
-        color: #021c2e;
+        color: #072a42;
         text-align: center;
        text-decoration: dotted;
        background-color: #b28383;
@@ -323,14 +323,14 @@ h3{
     
     .small-column {
         width: 30%;
-        background-color: #887b9e;
+        background-color: #7c6e93;
     }
     
     .big-column {
         width: 10%;
         background-color: #b0adc6;
     }
- 
+
 
 
 
