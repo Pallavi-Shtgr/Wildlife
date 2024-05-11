@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #c8bcbc;
+    background-color: #8c8989;
     background-size: cover;
 }
 .contact .content{
@@ -24,14 +24,14 @@
 .contact .content h2{
     font-size: 36px;
     font-weight: 500;
-    color:rgb(12, 8, 73);
+    color:rgb(234, 234, 242);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transform-style: flat;
   
 }
 .contact .content p{
     font-weight: 300;
-    color:#f40e0e;
+    color:#e7dfeb;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -57,7 +57,7 @@
 .container .contactInfo .box icon{
     max-width:60px;
     height: 60px;
-    background: #fff;
+    background: #464242;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
     margin-left: 20px;
     margin: 2%;
     font-size: 16px;
-    color: #fff;
+    color: #3f3636;
     flex-direction: column;
     font-weight: 300;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -85,11 +85,11 @@
 .contactForm{
     width:40%;
     padding: 40px;
-    background: #fff;
+    background: #626a90;
 }
 .contactForm h2{
      font-size: 30px;
-     color: #333;
+     color: #dcd5d5;
      font-weight: 500;
 }
 
