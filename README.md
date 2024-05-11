@@ -8,14 +8,18 @@ A critical issue is the lack of knowledge among individuals eager to join the wo
 -> Outcomes:
 This project endeavors to make wildlife photography more accessible for beginners through a web-based learning platform. By combining educational resources, community support, and practical guidance, the goal is to empower individuals with a passion for wildlife to embark on their photography journey with confidence and enthusiasm.A Generous contribution will fund initiatives to help preserve the habitats, enabling enthusiasts to embark on their photography journey with confidence and enthusiasm.
 
+![Screenshot 2024-05-11 111748](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/4633fc41-1a41-475a-a304-905579e6a642)
+![Screenshot 2024-05-11 111822](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/0f9f7db1-bfd0-4e06-9eb1-691b6e8aa01e)
+![Screenshot 2024-05-11 111809](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/f68351e2-7360-422a-91a8-103e6814f9c5)
+![Screenshot 2024-05-11 111736](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/b3026f25-2c7e-419f-8a35-5448190c61b2)
+![Screenshot 2024-05-11 111835](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/fcb6a518-2db6-432c-82d8-247b2ce3de2e)
+![Screenshot 2024-05-11 112227](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/65c56222-5e74-484e-890d-2ef04753d1dd)
 
-![Screenshot 2024-05-11 111748](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/62072e48-7fa5-41e1-a796-633df16579a2
 
-![Screenshot 2024-05-11 111822](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/d95eacf7-4b41-4d22-8515-b59ee6505b95)
-![Screenshot 2024-05-11 111809](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/c538b74c-115e-4074-b2d7-e7dd8524e706)
-![Screenshot 2024-05-11 111736](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/a32d4b04-dfe9-4d8d-bf78-1b235a04f1af)
-![Screenshot 2024-05-11 111835](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/e020de02-3840-409f-920a-0c4a977131a2)
-![Screenshot 2024-05-11 112227](https://github.com/Pallavi-Shtgr/Wildlife/assets/126679884/678733c8-2bc1-436b-a3fb-63a02c59a4da)
+
+
+
+
 
 
 
